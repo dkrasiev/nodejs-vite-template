@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-vite-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "nodemon src/main.ts",
+    "build": "vite build",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "format": "prettier src/**/*.ts --write",
+    "lint": "eslint src/**/*.ts",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "Dmitry Krasiev",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.1",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.3"
+  }
+}
